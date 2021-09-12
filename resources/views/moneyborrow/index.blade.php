@@ -50,10 +50,10 @@
 
                                                     <!-- <td>{{$row->user->name}}</td> -->
                                                             <td>
-                                                                <a href="{{url('/moneyspend/edit/'.$row->id)}}" class="btn btn-primary">ແກ້ໄຂ<a>
+                                                                <a href="{{url('/moneyborrow/edit/'.$row->id)}}" class="btn btn-primary">ແກ້ໄຂ<a>
                                                             </td>
                                                             <td>
-                                                                <a href="{{url('/moneyspend/delete/'.$row->id)}}" class="btn btn-danger">ແກ້ໄຂ<a>
+                                                                <a href="{{url('/moneyborrow/delete/'.$row->id)}}" class="btn btn-danger">ແກ້ໄຂ<a>
                                                             </td>
                                                             
                                                      </tr>
@@ -72,7 +72,7 @@
                     <div class="col-md-3">
                         <div class="card-header">form</div>
                         <div class="card-body">
-                            <form action="{{route('addmoneyspend')}}" method="post" >
+                            <form action="{{route('addmoneyborrow')}}" method="post" >
                                 @csrf
                                 <div class="form-group">
                                     <label for="money">ຈຳນວນເງິນ</label>
