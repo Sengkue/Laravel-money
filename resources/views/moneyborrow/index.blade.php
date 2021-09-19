@@ -53,7 +53,7 @@
                                                                 <a href="{{url('/moneyborrow/edit/'.$row->id)}}" class="btn btn-primary">ແກ້ໄຂ<a>
                                                             </td>
                                                             <td>
-                                                                <a href="{{url('/moneyborrow/delete/'.$row->id)}}" class="btn btn-danger">ແກ້ໄຂ<a>
+                                                                <a href="{{url('/moneyborrow/delete/'.$row->id)}}" class="btn btn-danger">ລືບ<a>
                                                             </td>
                                                             
                                                      </tr>
